@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="vizalityxkotlin-0.2.0">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="vizalityxkotlin-0.2.0.jar">
+      <element id="module-output" name="vizalityxkotlin.main" />
+    </root>
+  </artifact>
+</component>
