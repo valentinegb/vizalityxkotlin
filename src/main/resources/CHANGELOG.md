@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - `CHANGELOG.md`, this changelog.
 - `README.md`, which currently doesn't contain anything useful.
+- More methods in `Plugin`.
+- `Updatable` entity.
+- `API.kt`, which currently contains some of the `Notifications` part of the API.
+
+### Changed
+- `Entities.kt`'s directory to `vizality`. All future Vizality code translations should be kept in this folder.
+- Plugin `start()` to initiate a fun little notice interaction.
 
 ## [0.1.0] - 2022-02-27
 ### Added
