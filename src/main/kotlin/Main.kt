@@ -10,9 +10,14 @@ fun VizalityNotice(): VizalityNotice = js("{}")
 fun NoticeButton(): NoticeButton = js("{}")
 
 @JsExport
+val __esModule = true
+
+@JsExport
 @JsName("default")
 class VizalityXKotlin: Plugin() {
     fun start() {
+        registerSettings(Settings)
+
         Notifications.sendNotice(VizalityNotice().apply {
             id = NOTICE_ID
             color = NOTICE_COLOR
@@ -36,6 +41,6 @@ class VizalityXKotlin: Plugin() {
     }
 
     fun stop() {
-        this.log("Goodbye Kotlin!")
+        log("Goodbye Kotlin!")
     }
 }

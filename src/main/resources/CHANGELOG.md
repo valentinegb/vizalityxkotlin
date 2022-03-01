@@ -5,6 +5,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0-alpha] - 2022-02-28
+### Added
+- Plugin settings page. *(Not yet working!)*
+
+### Changed
+- Plugin now works without any modifications to Vizality!
+
 ## [0.2.0] - 2022-02-27
 ### Added
 - `CHANGELOG.md`, this changelog.
@@ -24,6 +31,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Currently, simply contains `start()` and `stop()` functions that log "Hello" and "Goodbye".
 - `manifest.json`, which is the same as any normal manifest in a JavaScript plugin.
 
-[Unreleased]: https://github.com/valentinegb/vizalityxkotlin/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/valentinegb/vizalityxkotlin/compare/v0.3.0-alpha...HEAD
+[0.3.0-alpha]: https://github.com/valentinegb/vizalityxkotlin/compare/v0.2.0...v0.3.0-alpha
 [0.2.0]: https://github.com/valentinegb/vizalityxkotlin/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/valentinegb/vizalityxkotlin/releases/v0.1.0
